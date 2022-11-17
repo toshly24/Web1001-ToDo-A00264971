@@ -1,0 +1,40 @@
+﻿<Properties StartupConfiguration="{367858F6-592C-4589-A7DD-7B8D67E4A545}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ToDoApp PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoApp/Controllers/ToDoController.cs">
+    <Files>
+      <File FileName="ToDoApp/Program.cs" Line="25" Column="30" />
+      <File FileName="ToDoApp/Views/ToDo/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ToDoApp/Views/ToDo/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="ToDoApp/Controllers/ToDoController.cs" Line="16" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDoApp" expanded="True">
+            <Node name="ToDoApp" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True">
+                <Node name="ToDoController.cs" selected="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True" />
+                <Node name="ToDo" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
