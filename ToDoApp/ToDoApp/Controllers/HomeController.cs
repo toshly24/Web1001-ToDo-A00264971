@@ -4,11 +4,11 @@ using ToDoApp.Models;
 
 namespace ToDoApp.Controllers;
 
-public class ToDoController : Controller
+public class HomeController : Controller
 {
-    private readonly ILogger<ToDoController> _logger;
+    private readonly ILogger<HomeController> _logger;
 
-    public ToDoController(ILogger<ToDoController> logger)
+    public HomeController(ILogger<HomeController> logger)
     {
         _logger = logger;
     }

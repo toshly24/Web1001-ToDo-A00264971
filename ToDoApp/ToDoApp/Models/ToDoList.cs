@@ -1,9 +1,11 @@
-﻿namespace ToDoApp.Models;
-
-public class ErrorViewModel
+﻿using System;
+namespace ToDoApp.Models
 {
-    public string? RequestId { get; set; }
-
-    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+    public class ToDoList
+    {
+        public ToDoList()
+        {
+        }
+    }
 }
 
