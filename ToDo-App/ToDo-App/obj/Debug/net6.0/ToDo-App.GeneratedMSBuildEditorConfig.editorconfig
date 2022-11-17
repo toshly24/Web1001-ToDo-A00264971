@@ -15,16 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/toshlytomy/Downloads/WEB/Web1001-ToDo-A00264971/ToDo-App/ToDo-App
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/toshlytomy/Downloads/WEB/Web1001-ToDo-A00264971/ToDo-App/ToDo-App/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/toshlytomy/Downloads/WEB/Web1001-ToDo-A00264971/ToDo-App/ToDo-App/Views/Home/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/toshlytomy/Downloads/WEB/Web1001-ToDo-A00264971/ToDo-App/ToDo-App/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/toshlytomy/Downloads/WEB/Web1001-ToDo-A00264971/ToDo-App/ToDo-App/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/toshlytomy/Downloads/WEB/Web1001-ToDo-A00264971/ToDo-App/ToDo-App/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/toshlytomy/Downloads/WEB/Web1001-ToDo-A00264971/ToDo-App/ToDo-App/Views/Shared/_ValidationScriptsPartial.cshtml]
