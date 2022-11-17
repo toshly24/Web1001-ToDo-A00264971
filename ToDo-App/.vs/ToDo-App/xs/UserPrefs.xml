@@ -1,4 +1,43 @@
 ﻿<Properties StartupConfiguration="{EE446797-D78B-4BEC-A156-7D7C05BD1ECB}|Default">
-  <MonoDevelop.Ide.ItemProperties.ToDo-App FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo-App/Models/ToDoList.cs">
+    <Files>
+      <File FileName="ToDo-App/Models/ToDoList.cs" Line="6" Column="26" />
+      <File FileName="ToDo-App/Controllers/HomeController.cs" Line="16" Column="27" />
+      <File FileName="ToDo-App/Program.cs" Line="31" Column="27" />
+      <File FileName="ToDo-App/Data/ToDoContext.cs" Line="5" Column="11" />
+      <File FileName="ToDo-App/appsettings.json" Line="7" Column="5" />
+      <File FileName="ToDo-App/appsettings.Development.json" Line="1" Column="1" />
+      <File FileName="ToDo-App/Migrations/20221117032317_InitialCreate.Designer.cs" Line="1" Column="1" />
+      <File FileName="ToDo-App/Migrations/20221117032317_InitialCreate.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ToDo-App" expanded="True">
+            <Node name="ToDo-App" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20221117032317_InitialCreate.cs" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True">
+                <Node name="ToDoList.cs" selected="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.ToDo-App PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MultiItemStartupConfigurations />
 </Properties>
