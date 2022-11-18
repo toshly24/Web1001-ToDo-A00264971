@@ -3,7 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ToDoApp.Models
 {
-    public class ToDoList
+    //This is the model class
+    public class ToDoList 
     {
         public int Id { get; set; }
         [Required]
