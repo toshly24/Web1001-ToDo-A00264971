@@ -1,25 +1,30 @@
 ﻿<Properties StartupConfiguration="{EE446797-D78B-4BEC-A156-7D7C05BD1ECB}|Default">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo-App/Views/Home/Edit.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDo-App/appsettings.Development.json">
     <Files>
-      <File FileName="ToDo-App/Views/Home/Index.cshtml" Line="1" Column="1" />
-      <File FileName="ToDo-App/Views/Home/Create.cshtml" Line="1" Column="27" />
-      <File FileName="ToDo-App/Views/Home/Edit.cshtml" Line="1" Column="27" />
+      <File FileName="ToDo-App/Controllers/ToDoController.cs" Line="14" Column="2" />
+      <File FileName="ToDo-App/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="ToDo-App/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="ToDo-App/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="ToDo-App/Views/Shared/_Layout.cshtml" Line="18" Column="1" />
+      <File FileName="ToDo-App/Program.cs" Line="1" Column="1" />
+      <File FileName="ToDo-App/Models/ToDoList.cs" Line="1" Column="1" />
+      <File FileName="ToDo-App/appsettings.Development.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ToDo-App" expanded="True">
             <Node name="ToDo-App" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Data" expanded="True" />
-              <Node name="Models" expanded="True" selected="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
               </Node>
-              <Node name="appsettings.json" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
             </Node>
           </Node>
         </State>
