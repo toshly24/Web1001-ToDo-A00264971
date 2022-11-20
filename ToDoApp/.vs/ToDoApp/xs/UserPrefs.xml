@@ -2,13 +2,20 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.ToDoApp PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="ToDoApp/Data/ToDoContext.cs">
+    <Files>
+      <File FileName="ToDoApp/Models/ToDoList.cs" Line="6" Column="30" />
+      <File FileName="ToDoApp/appsettings.json" Line="10" Column="59" />
+      <File FileName="ToDoApp/Program.cs" Line="9" Column="17" />
+      <File FileName="ToDoApp/Data/ToDoContext.cs" Line="12" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ToDoApp" expanded="True">
             <Node name="ToDoApp" expanded="True">
               <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
               <Node name="Data" expanded="True" />
             </Node>
           </Node>

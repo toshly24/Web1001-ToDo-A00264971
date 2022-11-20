@@ -13,7 +13,7 @@ namespace ToDoApp.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
-                        .Annotation("Sqlite:Autoincrement", true),
+                        .Annotation("MySQL:Autoincrement", true),
                     Content = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
