@@ -7,8 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using ToDoApp.Data;
 using ToDoApp.Models;
 
-//This is a ToDoController class which has the methods : Create, Edit & Delete
-
 namespace ToDoApp.Controllers
 {
     public class ToDoController : Controller
@@ -20,17 +18,21 @@ namespace ToDoApp.Controllers
             this.context = context;
         }
 
-
+        // GET /
         public async Task<ActionResult> Index()
         {
             IQueryable<ToDoList> items = from i in context.ToDo orderby i.Id select i;
-            List<ToDoList> todolist = await items.ToListAsync();
-            return View(todolist);
+
+            List<ToDoList> todoList = await items.ToListAsync();
+
+            return View(todoList);
 
         }
 
+        // GET /todo/create
         public IActionResult Create() => View();
 
+        // POST /todo/create
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Create(ToDoList item)
@@ -40,13 +42,16 @@ namespace ToDoApp.Controllers
                 context.Add(item);
                 await context.SaveChangesAsync();
 
-                TempData["Success"] = "The item has been added";
-                return RedirectToAction("Inndex");
+                TempData["Success"] = "The item has been added!";
+
+                return RedirectToAction("Index");
             }
 
             return View(item);
+
         }
 
+        // GET /todo/edit/5
         public async Task<ActionResult> Edit(int id)
         {
             ToDoList item = await context.ToDo.FindAsync(id);
@@ -54,9 +59,12 @@ namespace ToDoApp.Controllers
             {
                 return NotFound();
             }
+
             return View(item);
+
         }
 
+        // POST /todo/edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> Edit(ToDoList item)
@@ -74,6 +82,7 @@ namespace ToDoApp.Controllers
             return View(item);
         }
 
+        // GET /todo/delete/5
         public async Task<ActionResult> Delete(int id)
         {
             ToDoList item = await context.ToDo.FindAsync(id);
@@ -91,7 +100,5 @@ namespace ToDoApp.Controllers
 
             return RedirectToAction("Index");
         }
-
     }
-
 }
